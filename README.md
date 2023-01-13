@@ -63,7 +63,7 @@ python -m only_poses.main \
     --number-samples 10
 ```
 
-For evaluation open the notebook `evaluation.ipynb` to analyze the results. In the first cell update
+For evaluation open the notebook `evaluation.ipynb` (also in `only_poses/`) to analyze the results. In the first cell update
 ```
 os.chdir("/root/of/the/repo/") 
 ```
