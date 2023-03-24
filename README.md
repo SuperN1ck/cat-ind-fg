@@ -2,7 +2,7 @@
 [Nick Heppert](https://rl.uni-freiburg.de/people/heppert), [Toki Migimatsu](https://cs.stanford.edu/~takatoki/), [Brent Yi](https://brentyi.com/), [Claire Chen](https://msl.stanford.edu/people/clairechen), [Jeannette Bohg](https://web.stanford.edu/~bohg/)
 
 [**arXiv**](https://arxiv.org/abs/2205.03721) | [**website**](https://tinyurl.com/ycyva37v) |
-*Presented at IROS 20222, Kyoto, Japan*
+*Presented at IROS 2022, Kyoto, Japan*
 
 <p align="center">
   <img src="assets/overview.png" alt="Overview" width="500" />
