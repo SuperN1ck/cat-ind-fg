@@ -2,7 +2,7 @@
 [Nick Heppert](https://rl.uni-freiburg.de/people/heppert), [Toki Migimatsu](https://cs.stanford.edu/~takatoki/), [Brent Yi](https://brentyi.com/), [Claire Chen](https://msl.stanford.edu/people/clairechen), [Jeannette Bohg](https://web.stanford.edu/~bohg/)
 
 [**arXiv**](https://arxiv.org/abs/2205.03721) | [**website**](https://tinyurl.com/ycyva37v) |
-*Presented at IROS 2022, Kyoto, Japan*
+*Presented at IROS 20222, Kyoto, Japan*
 
 <p align="center">
   <img src="assets/overview.png" alt="Overview" width="500" />
@@ -27,6 +27,9 @@ pip install -r requirements.txt
 ```
 
 *We also highly recommend, if possible, to use JAX with GPU/TPU-support. See the official [Documentation](https://github.com/google/jax#pip-installation-gpu-cuda) for install instructions*
+
+### General Purpose Estimation
+In `minimal_example.py` we provide a small (non-) working example on how to use the factor graph as a stand-alone method to integrate in your workflow.
 
 ### Just Part Poses
 We provide a simple example on how to use the factor graph with pre-computed poses in the `only_poses`-directory. To execute the example run
@@ -63,7 +66,7 @@ python -m only_poses.main \
     --number-samples 10
 ```
 
-For evaluation open the notebook `evaluation.ipynb` (also in `only_poses/`) to analyze the results. In the first cell update
+For evaluation open the notebook `evaluation.ipynb` to analyze the results. In the first cell update
 ```
 os.chdir("/root/of/the/repo/") 
 ```
